@@ -112,7 +112,7 @@ function criaElementosDados() {
   //item12
   let item12 = document.createElement("LI")
   let res12 = document.createTextNode(
-    `Numero 12 aparece por ${count[1]} vezes.`
+    `Numero 12 aparece por ${count[10]} vezes.`
   )
   item12.appendChild(res12)
   listaDados.insertBefore(item12, listaDados.childNodes[11])
